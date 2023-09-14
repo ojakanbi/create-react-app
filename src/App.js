@@ -9,10 +9,13 @@ function App() {
     <button id="colorButton" onClick={handleChangeCardColor}>Change Card Color</button>
     <button id="titleButton" onClick={handleChangeTitle}>Change Title</button>
     <button id="deleteButton" onClick={handleDeleteLastCard}>Delete Last Card</button> */}
-
+ <h1>Hello World </h1>
     <div className="cards">
+   
+      
       {/* Card Template */}
       <div className="card-container">
+       
         <div className="card-content">
           {/* Card Title */}
           <h2 className="cardTitle">PSU Blue and White</h2>
